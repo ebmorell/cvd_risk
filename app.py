@@ -36,8 +36,6 @@ with open("model_features.pkl", "rb") as f:
 
 st.title("🧠 Predicción de Riesgo Cardiovascular a 5 Años en Pacientes con VIH")
 
-st.markdown(""Introduce las variables clínicas del paciente para estimar el riesgo de un evento cardiovascular (ECV) en los próximos 5 años, usando un modelo de inteligencia artificial entrenado con datos de la cohorte CoRIS."")
-
 def prepare_input():
     input_dict = {}
 
