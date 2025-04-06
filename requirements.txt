@@ -1,0 +1,8 @@
+streamlit
+gdown
+pandas
+numpy
+matplotlib
+scikit-learn
+scikit-survival
+cloudpickle
