@@ -11,8 +11,8 @@ import streamlit as st
 # ----------------------------
 
 # Sustituye con tus IDs reales de Google Drive (¡IMPORTANTE!)
-model_url = "https://drive.google.com/uc?id=1j_zo8usdyfpnJLtB48q0JMy9gr4hgxJU"
-features_url = "https://drive.google.com/uc?id=1qQHJJhkF8ppQYy3ZINF2PXU2HQd-cGjU"
+model_url = "https://drive.google.com/uc?id=15EkxZs9U8Xjro3dTTLxmozE-LaWT0vOI"
+features_url = "https://drive.google.com/uc?id=1YrDDcQfaloaEDuKnmWPy8OmMRkHPzfcK"
 
 if not os.path.exists("rsf_model.pkl"):
     gdown.download(model_url, "rsf_model.pkl", quiet=False)
